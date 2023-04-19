@@ -1,7 +1,7 @@
 /**
 * Template Name: Kingsmen
 * Updated: Mar 18 2023 with Bootstrap v5.2.3
-* Template URL: https://triplebytesoft.com/
+* Template URL: https://masirul-codify.github.io/kmen/
 * Author: triplebytesoft
 * License: https://triplebytesoft.com/
 */
