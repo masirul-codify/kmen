@@ -435,6 +435,13 @@ h6 {
   background-size: cover;
   position: relative;
 }
+#hero-projects-bg{
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/img/projects/projects-hero-bg.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
 
 #hero:before {
   content: "";
