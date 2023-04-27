@@ -9,6 +9,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -476,10 +479,11 @@ h6 {
 #hero h1 {
   margin: 0;
   font-size: 56px;
-  font-weight: 700;
+  font-weight: 300;
+  text-transform: uppercase;
   line-height: 64px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "lato", sans-serif;
 }
 
 #hero h1 span {
