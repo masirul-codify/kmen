@@ -354,3 +354,23 @@ for (i = 0; i < faq.length; i++) {
       }
     }
   });
+
+
+/** for tab gallery on single project **/
+
+
+Fancybox.assign('[data-fancybox="carousel-gallery"]', {
+  closeButton: "top",
+  Thumbs: false,
+  Carousel: {
+    Dots: true,
+    on: {
+      change: (that) => {
+        myCarousel.slideTo(myCarousel.getPageforSlide(that.page), {
+          friction: 0
+        });
+      }
+    }
+  }
+});
+
