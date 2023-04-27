@@ -579,7 +579,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: "lato", sans-serif;
 }
 
 .section-title h2::after {
@@ -597,7 +597,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "lato", sans-serif;
   color: #151515;
 }
 
@@ -607,7 +607,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 28px;
-  font-family: "Poppins", sans-serif;
+  font-family: "lato", sans-serif;
 }
 
 .about .content ul {
@@ -1039,7 +1039,7 @@ section {
   margin-top: 20px;
   color: #3b3b3b;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "lato", sans-serif;
   transition: ease-in-out 0.3s;
 }
 
@@ -1684,38 +1684,30 @@ margin: auto;
     font-family: lato;
     font-weight: 500;
     font-size: 21px;
-    background: #21242B;
-}
-
-.project_tab_wrapp .nav-tabs .nav-link.active {
-    background: #21242b;
-    color: #FBCE25;
-    border: none;
+    background: #FBCE25;
 }
 
 .project_tab_wrapp .nav-tabs .nav-link {
-    border-right: 8px solid #FDD023;
-    border-radius: inherit;
-    outline: none !important;
-    padding: 25px;
-    color: #fff;
-}
-
-.project_tab_wrapp .nav-tabs .nav-link.active {
-    background: #21242b;
-    color: #FBCE25;
     border: none !important;
-    border-right: 8px solid #FDD023 !important;
-    position: relative;
-}
-.project_tab_wrapp .nav-tabs .nav-link {
-    border: none !important;
-    border-right: 8px solid #FDD023 !important;
     border-radius: 0;
     outline: none !important;
     padding: 25px;
+    color: #21242b;
+}
+.project_tab_wrapp .nav-tabs .nav-link.active {
+    background: #21242b;
     color: #fff;
-}.project_tab_wrapp div#myTabContent {
+    border: none;
+}
+
+
+.project_tab_wrapp .nav-tabs .nav-link.active {
+    background: #21242b;
+    color: #FDD023;
+    border: none !important;
+    position: relative;
+}
+.project_tab_wrapp div#myTabContent {
     border: 1px solid #21242b21;
     border-top: 0;
     margin-top: -1px;
@@ -1725,6 +1717,7 @@ margin: auto;
 }
 .project_tab_wrapp .nav-tabs .nav-link:hover {
     color:#FDD023;
+    background: #21242b;
 }.tab_gallery img {
     width: 100%;
 }
@@ -1747,11 +1740,9 @@ margin: auto;
 @media (max-width:995px) {
 .project_tab_wrapp .nav-tabs .nav-link {
     border: none !important;
-    border-right: 8px solid #FDD023 !important;
     border-radius: 0;
     outline: none !important;
     padding: 10px;
-    color: #fff;
     font-size: 16px;
 }
 
@@ -1762,7 +1753,7 @@ li.nav-item {
     align-content: flex-start;
     justify-content: center;
     margin-top: 20px;
-    background: #21242b;
+    background: #FDD023;
 
 }
 li.nav-item button {
@@ -1773,7 +1764,30 @@ li.nav-item button {
     background: none;
 }
 
-  
+}
+
+/* code for home */
+.products_inner_wrap .single_product_wrap, .faq .faq_wrap{
+    padding: 30px;
+    border: 1px solid #C1BABA;
+    margin: 0px;
+}
+#main a.btn {
+    background: #000;
+    border: 0;
+    padding: 10px 24px;
+    color: #ffc451;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+
+#main a.btn:hover {
+    background: #ffc451;
+    color: #000;
+}.clients-slider img {
+    width: 50%;
+    text-align: center;
+    margin: auto;
 }
 
 
