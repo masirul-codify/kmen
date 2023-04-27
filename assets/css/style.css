@@ -1661,6 +1661,7 @@ margin: auto;
 .faq-page:after {
   content: '\02795';
   /* Unicode character for "plus" sign (+) */
+
   font-size: 13px;
   color: #777;
   float: right;
@@ -1670,4 +1671,28 @@ margin: auto;
 .active-faq:after {
   content: "\2796";
   /* Unicode character for "minus" sign (-) */
+}
+
+
+/* project  tab code */
+
+.nav-tabs {
+    font-family: lato;
+    font-weight: 500;
+    font-size: 21px;
+    background: #21242B;
+}
+
+.nav-tabs .nav-link.active {
+    background: #21242b;
+    color: #FBCE25;
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    border-right: 8px solid #FDD023;
+    border-radius: inherit;
+    outline: none !important;
+    padding: 25px;
+    color: #fff;
 }
