@@ -1676,23 +1676,85 @@ margin: auto;
 
 /* project  tab code */
 
-.nav-tabs {
+.project_tab_wrapp .nav-tabs {
     font-family: lato;
     font-weight: 500;
     font-size: 21px;
     background: #21242B;
 }
 
-.nav-tabs .nav-link.active {
+.project_tab_wrapp .nav-tabs .nav-link.active {
     background: #21242b;
     color: #FBCE25;
     border: none;
 }
 
-.nav-tabs .nav-link {
+.project_tab_wrapp .nav-tabs .nav-link {
     border-right: 8px solid #FDD023;
     border-radius: inherit;
     outline: none !important;
     padding: 25px;
     color: #fff;
 }
+
+.project_tab_wrapp .nav-tabs .nav-link.active {
+    background: #21242b;
+    color: #FBCE25;
+    border: none !important;
+    border-right: 8px solid #FDD023 !important;
+}
+.project_tab_wrapp .nav-tabs .nav-link {
+    border: none !important;
+    border-right: 8px solid #FDD023 !important;
+    border-radius: 0;
+    outline: none !important;
+    padding: 25px;
+    color: #fff;
+}.project_tab_wrapp div#myTabContent {
+    border: 1px solid #21242b21;
+    border-top: 0;
+    margin-top: -1px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 1px 4px 16px 0 #0000001c;
+    padding: 20px;
+}
+
+.project_tab_wrapp .nav-tabs .nav-link:hover {
+    color:#FDD023;
+}.tab_gallery img {
+    width: 100%;
+}
+
+@media (max-width:995px) {
+.project_tab_wrapp .nav-tabs .nav-link {
+    border: none !important;
+    border-right: 8px solid #FDD023 !important;
+    border-radius: 0;
+    outline: none !important;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+li.nav-item {
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    margin-top: 7px;
+    background: #21242b;
+
+}
+li.nav-item button {
+    display: block !important;
+    width: 100%;
+}
+.project_tab_wrapp .nav-tabs {
+    background: none;
+}
+
+  
+}
+
+
