@@ -780,7 +780,7 @@ section {
 }
 
 .cta .cta-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "lato", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1028,7 +1028,7 @@ section {
 .counts .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
-  font-family: "Raleway", sans-serif;
+  font-family: "lato", sans-serif;
   font-size: 14px;
   color: #3b3b3b;
 }
@@ -1489,7 +1489,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "lato", sans-serif;
   color: #fff;
 }
 
@@ -1706,6 +1706,7 @@ margin: auto;
     color: #FBCE25;
     border: none !important;
     border-right: 8px solid #FDD023 !important;
+    position: relative;
 }
 .project_tab_wrapp .nav-tabs .nav-link {
     border: none !important;
@@ -1722,11 +1723,25 @@ margin: auto;
     box-shadow: 1px 4px 16px 0 #0000001c;
     padding: 20px;
 }
-
 .project_tab_wrapp .nav-tabs .nav-link:hover {
     color:#FDD023;
 }.tab_gallery img {
     width: 100%;
+}
+.project_tab_wrapp .nav-tabs .nav-link.active:after {
+    content: "";
+    border-left: 15px solid #00ffff00;
+    border-right: 15px solid #ff000000;
+    border-bottom: 15px solid #00800000;
+    border-top: 15px solid #21242b;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 13px;
+    bottom: -29px;
+    z-index: -1;
 }
 
 @media (max-width:995px) {
@@ -1746,7 +1761,7 @@ li.nav-item {
     flex-wrap: nowrap;
     align-content: flex-start;
     justify-content: center;
-    margin-top: 7px;
+    margin-top: 20px;
     background: #21242b;
 
 }
@@ -1760,6 +1775,7 @@ li.nav-item button {
 
   
 }
+
 
 /* crowdfunding code */
 #hero-crowdfunding h1{
