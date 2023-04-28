@@ -1750,16 +1750,16 @@ margin: auto;
 }
 .project_tab_wrapp .nav-tabs .nav-link:hover {
     color:#FDD023;
-    background: #21242b;
+    background: #262626;
 }.tab_gallery img {
     width: 100%;
 }
 .project_tab_wrapp .nav-tabs .nav-link.active:after {
     content: "";
-    border-left: 15px solid #00ffff00;
-    border-right: 15px solid #ff000000;
-    border-bottom: 15px solid #00800000;
-    border-top: 15px solid #21242b;
+    border-left: 15px solid var(--bs-dark);
+    border-right: 15px solid var(--bs-dark);
+    border-bottom: 15px solid var(--bs-dark);
+    border-top: 15px solid #ebebeb;
     display: inline-block;
     position: absolute;
     left: 0;
@@ -1865,4 +1865,24 @@ li.nav-item button {
 
 #hero-crowdfunding span{
   color: #ffc451;
+}
+
+/* one tree armenia code */
+.raw_card{
+  border: 1px solid #21242b21;
+  border-top: 0;
+  margin-top: 20px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 1px 4px 16px 0 #0000001c;
+  padding: 20px;
+}
+
+.raw_card:hover{
+  border: 1px solid #21242b21;
+  border-top: 0;
+  margin-top: 20px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 1px 4px 16px 0 black;
+  padding: 20px;
+  transition-delay: 30s;
 }
