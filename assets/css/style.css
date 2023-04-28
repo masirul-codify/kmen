@@ -1814,7 +1814,6 @@ li.nav-item button {
   margin: 5px;
   background-color: white;
   color:rgb(244, 244, 244);
-  transition: 0.3s;
   box-shadow: 10px 5px 5px #000000 ;
 }
 .faq_wrap:hover{
