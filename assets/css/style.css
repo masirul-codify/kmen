@@ -14,7 +14,7 @@
 
 body {
   font-family: "lato", sans-serif;
-  color: #444444;
+  color: #000000 ;
 }
 
 a {
@@ -445,9 +445,18 @@ h6 {
   background-size: cover;
   position: relative;
 }
+#hero-crowdfunding h3{
+  margin: 0;
+  font-size: 39px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 64px;
+  color: #fff;
+  font-family: "lato", sans-serif;
+}
 #hero-one-tree-armenia{
   width: 100%;
-  height: 45vh;
+  height: 65vh;
   background: url("../../assets/img/crowdfunding/one-tree-armenia/one\ tree\ hero\ bg.png") top center;
   background-size: cover;
   position: relative;
