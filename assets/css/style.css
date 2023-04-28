@@ -433,14 +433,14 @@ h6 {
 
 #hero-private-statement{
   width: 100%;
-  height: 80vh;
+  height: 50vh;
   background: url("../img/hero-private-investmets.jpg ") top center;
   background-size: cover;
   position: relative;
 }
 #hero-crowdfunding{
   width: 100%;
-  height: 80vh;
+  height: 50vh;
   background: url("../img/crowdfunding/hero-crowdfunding.jpg") top center;
   background-size: cover;
   position: relative;
@@ -454,21 +454,21 @@ h6 {
 }
 #hero-projects-bg{
   width: 100%;
-  height: 80vh;
+  height: 50vh;
   background: url("../../assets/img/projects/projects-hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
 }
 #hero-faq-bg{
   width: 100%;
-  height: 80vh;
+  height: 50vh;
   background: url("../../assets/img/faq-hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
 }
 #hero-team-bg{
   width: 100%;
-  height: 80vh;
+  height: 50vh;
   background: url("../../assets/img/team/team-hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
