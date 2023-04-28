@@ -1797,7 +1797,9 @@ li.nav-item button {
   margin: 0px;
   box-shadow: 10px 5px 5px 5px rgba(0, 0, 0, 0.2);
 } */
-.products_inner_wrap,.faq_wrap{
+/* .products_inner_wrap */
+
+.faq_wrap{
     padding: 30px;
     border: 1px solid #fff3f3;
     margin: 0px;
