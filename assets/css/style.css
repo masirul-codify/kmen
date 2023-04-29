@@ -12,6 +12,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+html {
+  font-size: calc(15px + 0.390625vw);
+}
+
+input{
+  font-size: calc(15px + 0.390625vw);
+}
+
 body {
   font-family: "lato", sans-serif;
   color: #000000 ;
@@ -19,7 +27,8 @@ body {
 
 a {
   color: #ffc451;
-  text-decoration: none;
+  text-decoration: none; 
+  font-size: calc(15px + 0.390625vw);
 }
 
 a:hover {
@@ -38,6 +47,30 @@ h4,
 h5,
 h6 {
   font-family: "lato";
+}
+
+h1{
+  font-size: 1.8rem;
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
+h3{
+  font-size: 1.2rem;
+}
+
+h4{
+  font-size: .9rem;
+}
+
+h5{
+  font-size: .6rem;
+}
+
+h6{
+  font-size: .3rem;
 }
 
 .text-green{
@@ -132,7 +165,7 @@ h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: 25px 0;
 }
 
 #header.header-scrolled,
@@ -171,7 +204,7 @@ h6 {
   padding: 7px 25px 8px 25px;
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: calc(15px + 0.390625vw);
   display: inline-block;
   border: 2px solid #ffc451;
 }
@@ -216,7 +249,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 15px;
+  font-size: calc(15px + 0.390625vw);
   font-weight: 600;
   color: #fff;
   white-space: nowrap;
@@ -625,7 +658,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 14px;
+  font-size: calc(15px + 0.390625vw);
   font-weight: 500;
   padding: 0;
   line-height: 1px;
@@ -648,7 +681,7 @@ section {
 .section-title p {
   margin: 0;
   margin: 0;
-  font-size: 36px;
+  font-size: calc(36px + 0.390625vw);
   font-weight: 700;
   text-transform: uppercase;
   font-family: "lato", sans-serif;
@@ -836,7 +869,7 @@ section {
 .cta .cta-btn {
   font-family: "lato", sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: calc(15px + 0.390625vw);
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 28px;
@@ -933,14 +966,14 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
+  font-size: calc(20px + 0.390625vw);
   color: #fff;
   font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
   color: rgba(255, 255, 255, 0.7);
-  font-size: 14px;
+  font-size: calc(15px + 0.390625vw);
   text-transform: uppercase;
   padding: 0;
   margin: 0;
@@ -955,7 +988,7 @@ section {
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
   margin: 0 5px 0 0;
-  font-size: 28px;
+  font-size: calc(28px + 0.390625vw);
   display: inline-block;
   transition: 0.3s;
 }
@@ -1160,7 +1193,7 @@ section {
 
 .testimonials .testimonial-item .testimonial-img {
   width: 100px;
-  border-radius: 50%;
+  border-radius: 70%;
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
 }
@@ -1327,7 +1360,7 @@ section {
 }
 
 .contact .info i {
-  font-size: 20px;
+  font-size: calc(20px + 0.390625vw);
   background: #ffc451;
   color: #151515;
   float: left;
@@ -1342,7 +1375,7 @@ section {
 
 .contact .info h4 {
   padding: 0 0 0 60px;
-  font-size: 22px;
+  font-size: calc(22px + 0.390625vw);
   font-weight: 600;
   margin-bottom: 5px;
   color: #151515;
@@ -1351,7 +1384,7 @@ section {
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: calc(15px + 0.390625vw);
   color: #484848;
 }
 
@@ -1527,7 +1560,7 @@ section {
 }
 
 #footer .footer-top .footer-info h3 {
-  font-size: 28px;
+  font-size: calc(28px + 0.390625vw);
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
@@ -1540,8 +1573,8 @@ section {
 }
 
 #footer .footer-top .footer-info p {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: calc(15px + 0.390625vw);
+  line-height: calc(px + 0.390625vw);
   margin-bottom: 0;
   font-family: "lato", sans-serif;
   color: #fff;
@@ -1821,32 +1854,15 @@ li.nav-item button {
 }
 
 /* code for home */
-/* #products{
-  padding: 15px;
-  border: 1px solid #C1BABA;
-  margin: 0px;
-  box-shadow: 10px 5px 5px 5px rgba(0, 0, 0, 0.2);
-} */
-/* .products_inner_wrap */
+.card:hover{
+  box-shadow: 10px 5px 5px  rgb(199, 199, 199);
+}
 
 .faq_wrap{
     padding: 30px;
     border: 1px solid #fff3f3;
-    margin: 0px;
+    margin: 0px ;
     box-shadow: 10px 5px 5px  rgb(199, 199, 199);
-}
-.single_product_wrap{
-  padding: 30px;
-  border: 1px solid #fff3f3;
-  margin: 5px;
-}
-.single_product_wrap:hover{
-  padding: 32px;
-  border: 1px solid #fff3f3;
-  margin: 5px;
-  background-color: white;
-  color:rgb(244, 244, 244);
-  box-shadow: 10px 5px 5px #000000 ;
 }
 .faq_wrap:hover{
   padding: 25px;
