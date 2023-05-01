@@ -1793,7 +1793,7 @@ margin: auto;
 /* project  tab code */
 
 .project_tab_wrapp .nav-tabs {
-    font-family: lato;
+  font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size:  calc(21px + 0.390625vw);
     background: #FBCE25;
