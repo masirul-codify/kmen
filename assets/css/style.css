@@ -399,7 +399,7 @@ li{
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size:  calc(15px + 0.390625vw);
+  font-size:  calc(12px + 0.390625vw);
   color: #151515;
 }
 
@@ -437,7 +437,7 @@ li{
 }
 
 .navbar-mobile .dropdown ul a i {
-  font-size:  calc(12px + 0.390625vw);
+  font-size:  calc(10px + 0.390625vw);
 }
 
 .navbar-mobile .dropdown ul a:hover,
