@@ -9,8 +9,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Permanent+Marker&family=Poppins:wght@300;400;600;700&family=Sedgwick+Ave+Display&display=swap');
 
 html {
   font-size: calc(15px + 0.390625vw);
@@ -21,7 +20,7 @@ input{
 }
 
 body {
-  font-family: "lato", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #000000 ;
 }
 
@@ -36,17 +35,15 @@ a:hover {
   text-decoration: none;
 }
 
-.lato-font-family{
-  font-family: "lato";
-}
-
+a,
+p,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;
 }
 
 h1{
@@ -274,11 +271,11 @@ li{
 .navbar .dropdown ul {
   display: block;
   position: absolute;
-  left: 14px;
+  left: -14px;
   top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;
-  z-index: 99;
+  z-index: 1;
   opacity: 0;
   visibility: hidden;
   background: rgb(255, 255, 255);
@@ -486,7 +483,7 @@ li{
   text-transform: uppercase;
   line-height: 64px;
   color: #fff;
-  font-family: "lato", sans-serif;
+  font-family: 'inter', sans-serif;
 }
 #hero-one-tree-armenia{
   width: 100%;
@@ -494,6 +491,23 @@ li{
   background: url("../../assets/img/crowdfunding/one-tree-armenia/one\ tree\ hero\ bg.png") top center;
   background-size: cover;
   position: relative;
+}
+
+#hero-the-western-village{
+  width: 100%;
+  height: 65vh;
+  background: url("../../assets/img/crowdfunding/the-western-village/hero-bg-the-western-village.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+#hero-the-western-village h3{
+  margin: 0;
+  font-size:  calc(23px + 0.390625vw);
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 64px;
+  color: #fff;
+  font-family: 'inter', sans-serif;
 }
 #hero-projects-bg{
   width: 100%;
