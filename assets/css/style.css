@@ -65,7 +65,7 @@ h2{
 }
 
 li,p,h3,h6{
-  font-size: .0.75rem;
+  font-size: .0.75rem!important;
 
 }
 
@@ -1619,14 +1619,14 @@ section {
 
 #footer .footer-top .footer-info p {
   font-size: calc(10px + 0.390625vw);
-  line-height: calc(1px + 0.390625vw);
+  line-height: calc(15px + 0.390625vw);
   margin-bottom: 0;
   font-family: "lato", sans-serif;
   color: #fff;
 }
 
 #footer .footer-top .social-links a {
-  font-size:  calc(18px + 0.390625vw);
+  font-size:  calc(10px + 0.390625vw);
   display: inline-block;
   background: #292929;
   color: #fff;
@@ -1647,7 +1647,7 @@ section {
 }
 
 #footer .footer-top h4 {
-  font-size:  calc(16px + 0.390625vw);
+  font-size:  calc(10px + 0.390625vw);
   font-weight: 600;
   color: #fff;
   position: relative;
@@ -1667,7 +1667,7 @@ section {
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
   color: #ffc451;
-  font-size: calc(18px + 0.390625vw);
+  font-size: calc(10px + 0.390625vw);
   line-height: 1;
 }
 
@@ -1713,7 +1713,7 @@ section {
   bottom: 0;
   border: 0;
   background: none;
-  font-size: calc(16px + 0.390625vw);
+  font-size: calc(10px + 0.390625vw);
   padding: 0 20px;
   background: #ffc451;
   color: #151515;
@@ -1733,7 +1733,7 @@ section {
 #footer .credits {
   padding-top: 10px;
   text-align: center;
-  font-size: calc(13px + 0.390625vw);
+  font-size: calc(10px + 0.390625vw);
   color: #fff;
 }
 
