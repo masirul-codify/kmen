@@ -1618,8 +1618,8 @@ section {
 }
 
 #footer .footer-top .footer-info p {
-  font-size: calc(15px + 0.390625vw);
-  line-height: calc(px + 0.390625vw);
+  font-size: 0.75rem;
+  line-height: calc(1px + 0.390625vw);
   margin-bottom: 0;
   font-family: "lato", sans-serif;
   color: #fff;
