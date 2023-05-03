@@ -27,7 +27,7 @@ body {
 a {
   color: #ffc451;
   text-decoration: none; 
-  font-size: calc(15px + 0.390625vw);
+  font-size: calc(10px + 0.390625vw);
 }
 
 a:hover {
@@ -64,8 +64,8 @@ h2{
   font-size: 1.3rem;
 }
 
-li,p,h3,h6{
-  font-size: .0.75rem!important;
+li,p,h3,h4,h6{
+  font-size:  calc(10px + 0.390625vw)!important;
 
 }
 
@@ -103,7 +103,7 @@ li{
 }
 
 .back-to-top i {
-  font-size:  calc(28px + 0.390625vw);
+  font-size:  calc(15px + 0.390625vw);
   color: #151515;
   line-height: 0;
 }
@@ -645,7 +645,7 @@ li{
   font-weight: 700;
   padding: 0;
   line-height: 1;
-  font-size:  calc(20px + 0.390625vw);
+  font-size:  calc(10px + 0.390625vw);
   line-height: 26px;
 }
 @media (max-width: 667px) {
@@ -660,7 +660,7 @@ li{
     font-weight: 700;
     padding: 0;
     line-height: 1;
-    font-size:  calc(15px + 0.390625vw);
+    font-size:  calc(10px + 0.390625vw);
     line-height: 20px;
   }
   }
@@ -1244,14 +1244,14 @@ section {
 }
 
 .testimonials .testimonial-item h3 {
-  font-size:  calc(20px + 0.390625vw);
+  font-size:  calc(10px + 0.390625vw);
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #fff;
 }
 
 .testimonials .testimonial-item h4 {
-  font-size:  calc(14px + 0.390625vw);
+  font-size:  calc(10px + 0.390625vw);
   color: #ddd;
   margin: 0 0 15px 0;
 }
@@ -1405,7 +1405,7 @@ section {
 }
 
 .contact .info i {
-  font-size: calc(15px + 0.390625vw);
+  font-size: calc(10px + 0.390625vw);
   background: #ffc451;
   color: #151515;
   float: left;
@@ -1420,7 +1420,7 @@ section {
 
 .contact .info h4 {
   padding: 0 0 0 60px;
-  font-size: calc(13px + 0.390625vw);
+  font-size: calc(10px + 0.390625vw);
   font-weight: 600;
   margin-bottom: 5px;
   color: #151515;
@@ -1429,7 +1429,7 @@ section {
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: calc(15px + 0.390625vw);
+  font-size: calc(10px + 0.390625vw);
   color: #484848;
 }
 
@@ -1492,7 +1492,7 @@ section {
 .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
-  font-size:  calc(14px + 0.390625vw);
+  font-size:  calc(10px + 0.390625vw);
   border-radius: 4px;
 }
 
@@ -1591,7 +1591,7 @@ section {
   background: black;
   padding: 0 0 30px 0;
   color: #fff;
-  font-size:  calc(14px + 0.390625vw);
+  font-size:  calc(10px + 0.390625vw);
 }
 
 #footer .footer-top {
@@ -1605,7 +1605,7 @@ section {
 }
 
 #footer .footer-top .footer-info h3 {
-  font-size: calc(18px + 0.390625vw);
+  font-size: calc(10px + 0.390625vw);
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
