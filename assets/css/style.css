@@ -64,7 +64,7 @@ h2{
   font-size: 1.3rem;
 }
 
-li,p,h3,h4,h6{
+a,li,p,h3,h4,h6{
   font-size:  calc(10px + 0.390625vw)!important;
 
 }
@@ -78,10 +78,6 @@ h5{
 }
 
 
-
-li{
-  
-}
 .text-green{
   color:green;
 }
