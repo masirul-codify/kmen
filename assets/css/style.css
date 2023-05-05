@@ -463,7 +463,7 @@ h5{
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 50vh;
+  height: 65vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
@@ -471,14 +471,14 @@ h5{
 
 #hero-private-statement{
   width: 100%;
-  height: 50vh;
+  height: 65vh;
   background: url("../img/hero-private-investmets.jpg") top center;
   background-size: cover;
   position: relative;
 }
 #hero-crowdfunding{
   width: 100%;
-  height: 50vh;
+  height: 65vh;
   background: url("../img/crowdfunding/hero-crowdfunding.jpg") top center;
   background-size: cover;
   position: relative;
@@ -495,7 +495,7 @@ h5{
 
 #hero-invests{
   width: 100%;
-  height: 60vh;
+  height: 65vh;
   background: url("../img/invests/hero-invests-bg.jpg") top center;
   background-size: cover;
   position: relative;
@@ -503,7 +503,7 @@ h5{
 
 #hero-services{
   width: 100%;
-  height: 60vh;
+  height: 65vh;
   background: url("../img/services/hero-services-bg.jpg") top center;
   background-size: cover;
   position: relative;
@@ -544,21 +544,21 @@ h5{
 }
 #hero-projects-bg{
   width: 100%;
-  height: 50vh;
+  height: 70vh;
   background: url("../../assets/img/projects/projects-hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
 }
 #hero-faq-bg{
   width: 100%;
-  height: 50vh;
+  height: 65vh;
   background: url("../../assets/img/faq-hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
 }
 #hero-team-bg{
   width: 100%;
-  height: 50vh;
+  height: 70vh;
   background: url("../../assets/img/team/team-hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
@@ -566,7 +566,7 @@ h5{
 
 #hero-about{
   width: 100%;
-  height: 65vh;
+  height: 70vh;
   background: url("../../assets/img/about/hero-about-bg.jpg") top center;
   background-size: cover;
   position: relative;
@@ -1774,7 +1774,7 @@ flex-direction: column;
 
 }
 .hr-line{
-width: 60%;
+width: 90%;
 margin: auto;
 
 }
@@ -1784,7 +1784,7 @@ margin: auto;
   color: #444;
   cursor: pointer;
   padding: 30px 20px;
-  width: 60%;
+  width: 90%;
   border: none;
   outline: none;
   transition: 0.4s;
@@ -1794,7 +1794,7 @@ margin: auto;
 .faq-body{
   margin: auto;
   /* text-align: center; */
- width: 50%; 
+ width: 88%; 
  padding: auto;
  
 }
