@@ -462,27 +462,60 @@ h5{
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
-  height: 65vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background-image: url('../img/hero-bg.jpg');
   background-size: cover;
+  background-position: center;
   position: relative;
 }
 
-#hero-private-statement{
+#hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 65vh;
+  height: 100%;
+  opacity: 0.7; /* set the opacity value as needed */
+  background-color: #000; /* set the background color as needed */
+}
+
+
+#hero-private-statement{
   background: url("../img/hero-private-investmets.jpg") top center;
   background-size: cover;
+  background-position: center;
   position: relative;
 }
-#hero-crowdfunding{
+
+#hero-private-statement::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 65vh;
+  height: 100%;
+  opacity: 0.7; /* set the opacity value as needed */
+  background-color: #000; /* set the background color as needed */
+}
+
+#hero-crowdfunding{
   background: url("../img/crowdfunding/hero-crowdfunding.jpg") top center;
   background-size: cover;
+  background-position: center;
   position: relative;
 }
+
+#hero-crowdfunding::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7; /* set the opacity value as needed */
+  background-color: #000; /* set the background color as needed */
+}
+
 #hero-crowdfunding h3{
   margin: 0;
   font-size:  calc(39px + 0.390625vw);
@@ -494,45 +527,86 @@ h5{
 }
 
 #hero-invests{
-  width: 100%;
-  height: 65vh;
   background: url("../img/invests/hero-invests-bg.jpg") top center;
   background-size: cover;
+  background-position: center;
   position: relative;
 }
-
-#hero-services{
+#hero-invests::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 65vh;
+  height: 100%;
+  opacity: 0.7; /* set the opacity value as needed */
+  background-color: #000; /* set the background color as needed */
+}
+#hero-services{
   background: url("../img/services/hero-services-bg.jpg") top center;
   background-size: cover;
+  background-position: center;
   position: relative;
 }
-
-#hero-one-tree-armenia{
+#hero-services:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 65vh;
+  height: 100%;
+  opacity: 0.7; /* set the opacity value as needed */
+  background-color: #000; /* set the background color as needed */
+}
+#hero-one-tree-armenia{
   background: url("../../assets/img/crowdfunding/one-tree-armenia/one\ tree\ hero\ bg.png") top center;
   background-size: cover;
+  background-position: center;
   position: relative;
 }
-
-#hero-the-western-village{
+#hero-one-tree-armenia::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 65vh;
+  height: 100%;
+  opacity: 0.7; /* set the opacity value as needed */
+  background-color: #000; /* set the background color as needed */
+}
+#hero-the-western-village{
   background: url("../../assets/img/crowdfunding/the-western-village/hero-bg-the-western-village.jpg") top center;
   background-size: cover;
+  background-position: center;
   position: relative;
+}
+#hero-the-western-village::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7; /* set the opacity value as needed */
+  background-color: #000; /* set the background color as needed */
 }
 
 #hero-united-8-apartments{
-  width: 100%;
-  height: 65vh;
   background: url("../img/crowdfunding/united-8-apartments/hero_united_8_apartment_bg.jpg") top center;
   background-size: cover;
+  background-position: center;
   position: relative;
 }
-
+#hero-united-8-apartments::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7; /* set the opacity value as needed */
+  background-color: #000; /* set the background color as needed */
+}
 #hero-the-western-village h3{
   margin: 0;
   font-size:  calc(23px + 0.390625vw);
@@ -543,42 +617,69 @@ h5{
   font-family: 'inter', sans-serif;
 }
 #hero-projects-bg{
-  width: 100%;
-  height: 70vh;
   background: url("../../assets/img/projects/projects-hero-bg.jpg") top center;
   background-size: cover;
+  background-position: center;
   position: relative;
+}
+#hero-projects-bg::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7; /* set the opacity value as needed */
+  background-color: #000; /* set the background color as needed */
 }
 #hero-faq-bg{
-  width: 100%;
-  height: 65vh;
   background: url("../../assets/img/faq-hero-bg.jpg") top center;
   background-size: cover;
+  background-position: center;
   position: relative;
 }
-#hero-team-bg{
+#hero-faq-bg::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 70vh;
+  height: 100%;
+  opacity: 0.7; /* set the opacity value as needed */
+  background-color: #000; /* set the background color as needed */
+}
+#hero-team-bg{;
   background: url("../../assets/img/team/team-hero-bg.jpg") top center;
   background-size: cover;
+  background-position: center;
   position: relative;
+}
+#hero-team-bg::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7; /* set the opacity value as needed */
+  background-color: #000; /* set the background color as needed */
 }
 
 #hero-about{
-  width: 100%;
-  height: 70vh;
   background: url("../../assets/img/about/hero-about-bg.jpg") top center;
   background-size: cover;
+  background-position: center;
   position: relative;
 }
-#hero:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.6);
+#hero-about::before{
+  content: '';
   position: absolute;
-  bottom: 0;
   top: 0;
   left: 0;
-  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7; /* set the opacity value as needed */
+  background-color: #000; /* set the background color as needed */
 }
 
 #hero .container {
@@ -597,7 +698,7 @@ h5{
   font-family: "lato";
 }
 .hero_subhead{
-  margin: 0;
+  margin-top: calc(50px + 0.390625vw)!important;
   font-size: calc(35px + 0.390625vw);
   font-weight: 700;
   line-height: 50px;
@@ -610,7 +711,7 @@ h5{
 
   .hero_text{
     margin: 0;
-    font-size: calc(39px + 0.390625vw);
+    font-size: calc(35px + 0.390625vw);
     font-weight: 300;
     text-transform: uppercase;
     line-height: 64px;
