@@ -1858,7 +1858,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   color: #fff;
-  font-size: calc(14px + 0.390625vw);
+  font-size: calc(10px + 0.390625vw);
   background: #111;
 }
 
@@ -1872,7 +1872,7 @@ section {
 }
 
 #footer .footer-top .footer-contact h3 {
-  font-size: calc(22px + 0.390625vw);
+  font-size: calc(18px + 0.390625vw);
   margin: 0 0 10px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
@@ -1883,7 +1883,7 @@ section {
 }
 
 #footer .footer-top .footer-contact p {
-  font-size: calc(14px + 0.390625vw);
+  font-size: calc(10px + 0.390625vw);
   line-height: 24px;
   margin-bottom: 0;
   font-family: 'Lato', sans-serif;
@@ -1891,7 +1891,7 @@ section {
 }
 
 #footer .footer-top h4 {
-  font-size: calc(15px + 0.390625vw);
+  font-size: calc(10px + 0.390625vw);
   font-weight: bold;
   color: #fff;
   position: relative;
@@ -1911,7 +1911,7 @@ section {
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
   color: #1ed33c;
-  font-size: calc(16px + 0.390625vw);
+  font-size: calc(12px + 0.390625vw);
   line-height: 1;
 }
 
@@ -1938,12 +1938,12 @@ section {
 }
 
 #footer .footer-newsletter {
-  font-size: calc(15px + 0.390625vw);
+  font-size: calc(10px + 0.390625vw);
   color: rgba(255, 255, 255, 0.7);
 }
 
 #footer .footer-newsletter h4 {
-  font-size: calc(16px + 0.390625vw);
+  font-size: calc(12px + 0.390625vw);
   font-weight: bold;
   color: #fff;
   position: relative;
@@ -1972,7 +1972,7 @@ section {
   bottom: 0;
   border: 0;
   background: none;
-  font-size: calc(15px + 0.390625vw);
+  font-size: calc(10px + 0.390625vw);
   padding: 0 20px;
   background: #1bbd36;
   color: #fff;
@@ -1987,12 +1987,12 @@ section {
 
 #footer .credits {
   padding-top: 5px;
-  font-size: calc(13px + 0.390625vw);
+  font-size: calc(10px + 0.390625vw);
   color: #fff;
 }
 
 #footer .social-links a {
-  font-size: calc(18px + 0.390625vw);
+  font-size: calc(14px + 0.390625vw);
   display: inline-block;
   background: rgba(255, 255, 255, 0.08);
   color: #fff;
