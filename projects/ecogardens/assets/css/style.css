@@ -472,24 +472,7 @@ h6 {
   height: 10px;
   margin: 0 8px;
 }
-.raw_card{
-  border: 1px solid #21242b21;
-  border-top: 0;
-  margin-top: 20px;
-  border-radius: 0 0 10px 10px;
-  box-shadow: 1px 4px 16px 0 #0000001c;
-  padding: 20px;
-}
 
-.raw_card:hover{
-  border: 1px solid #21242b21;
-  border-top: 0;
-  margin-top: 20px;
-  border-radius: 0 0 10px 10px;
-  box-shadow: 1px 4px 16px 0 black;
-  padding: 20px;
-  transition-delay: 30s;
-}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
