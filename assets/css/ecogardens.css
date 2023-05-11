@@ -449,6 +449,22 @@ h6 {
   opacity: 0.5; /* set the opacity value as needed */
   background-color: #000; /* set the background color as needed */
 }
+#hero-eco-homes{
+  background: url("../img/ecogardens/eco-homes/hero-eco-home-bg.jpg") top center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#hero-eco-homes::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5; /* set the opacity value as needed */
+  background-color: #000; /* set the background color as needed */
+}
 #hero_about{
   background: url("../img/ecogardens/who\ we\ are/wo we are hero.jpg") top center;
   background-size: cover;
