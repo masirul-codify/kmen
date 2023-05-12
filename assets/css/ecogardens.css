@@ -25,7 +25,7 @@ body {
   border: 0;
   padding: 10px 26px;
   color:  #1bbd36;
-  transition: 0.4s;
+  transition: 0.2s;
   border-radius: 4px;
   border: 2px solid rgb(21, 255, 13);
 }
@@ -33,7 +33,7 @@ body {
 .btn:hover{
   background: #1bbd36;
   color: white; 
-  transition: 0.4s;
+  transition: 0.2s;
   border-radius: 4px;
 } 
 
